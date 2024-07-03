@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="zkw-ch-ZhH">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" keyboardDismissMode="interactive" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="zkw-ch-ZhH">
                                 <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -25,7 +25,7 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="NJ0-3V-oU9"/>
                                 </connections>
                             </tableView>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="aA3-5T-I2u">
+                            <searchBar contentMode="redraw" placeholder="App name, artist, song, album, e-book." translatesAutoresizingMaskIntoConstraints="NO" id="aA3-5T-I2u">
                                 <rect key="frame" x="0.0" y="59" width="430" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
